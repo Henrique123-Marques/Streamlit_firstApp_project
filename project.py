@@ -7,6 +7,8 @@ st.set_page_config(layout = "wide")
 df_reviews = pd.read_csv("C:\Projects\Python\Data\AsimovAcademy_IntroducaoAoPython\Streamlit_firstApp_project\dataset\customer reviews.csv")
 df_top100_books = pd.read_csv("C:\Projects\Python\Data\AsimovAcademy_IntroducaoAoPython\Streamlit_firstApp_project\dataset\Top-100 Trending Books.csv")
 
+
+#Criacao do sidebar e slider de preço maximo e minimo
 preco_max = df_top100_books["book price"].max()
 preco_min = df_top100_books["book price"].min()
 
